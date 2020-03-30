@@ -56,4 +56,3 @@ systems.
     - e.g. you hit a bump riding a bike.
     
     - We make very small unnoticeable adjustments until we're stable.
-
