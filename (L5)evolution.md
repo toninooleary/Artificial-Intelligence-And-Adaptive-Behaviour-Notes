@@ -4,7 +4,7 @@
 
 - Everyone has some familiarity with evolution
 
-1) Creatures that are better at reproducing, reproduce more, so future generations will be better than those around now.
+1) Creatures that are better at reproducing, reproduce more, so future generations will be better than those around in the present.
 
 2) Random mutations in the population are often detrimental, but those few mutation that are "good" (i.e. benificial to reproduction) have a chance at spreading in the population.
 
@@ -26,7 +26,7 @@ For evolution to take place you need a population that:
 
 ## The GA:
 
-An evolutionary algorithm simulates a population of individuals that
+An evolutionary algorithm that simulates a population of individuals that:
 
 - Reproduce by hereditability
 
@@ -43,11 +43,12 @@ An evolutionary algorithm simulates a population of individuals that
     5. Produce 20 new pieces of paper, writing on each bits of sequences from parent pieces of paper.
     6. Repeat from (2) on.
 
-## Human Design vs. Artificial Evolution
+## Human Design vs. Artificial Evolution:
 
 - An evolutionary standpoint introduces biases not normally considered in typical human design
 
-- essentially it is blind variation vs human design (which is the breakdown of a system into its componenets)
+- essentially it is blind variation vs human design 
+    - human design being - design through the breakdown of a system into its components
 
 **Biases**:
 
@@ -55,9 +56,9 @@ An evolutionary algorithm simulates a population of individuals that
 
 - The biases are not easy to identify but rely on how mutation takes place
 
-One thing to consider is that Gas cannot produyce a solution in one step like human design. Rather, it will produce this over a number of generations.
+One thing to consider is that GAs cannot produce a solution in one step like human design. Rather, it will produce this over a number of generations.
 
-## GAs influence in disciplines
+## GAs influence in disciplines:
 
 - Science (helping us to understand natural evolution in more depth)
 
@@ -66,11 +67,11 @@ One thing to consider is that Gas cannot produyce a solution in one step like hu
     - Scheduling problems
     - Container load optimisation
 
-## GA example - evolving airfoil in a wind tunnel (Disciplinary example - engineering)
+## GA example - evolving airfoil in a wind tunnel (Disciplinary example - engineering);
 
 Ingo Rechenberg 1964
 
-    1. Change (mutate) a random angle by a small amount (small changes mroe likely)
+    1. Change (mutate) a random angle by a small amount (small changes more likely)
     2. Measure drag. If it is worse undo the changes.
     3. Go to 1
 
@@ -93,7 +94,7 @@ Ingo Rechenberg 1964
 ## Fitness:
 
 - In the natural world, fitness is determined by many complex interacting factors.
-    - e.g. Predator/ prey coevolution, sexual selection, competition with conspecifics( a member of the same species), luck (e.g. meteor strike).
+    - e.g. Predator/ prey coevolution, sexual selection, competition with conspecifics (a member of the same species), luck (e.g. meteor strike).
 
 - BUT! evolutionary algorithms are not the same thing. There is often a clearly defined "fitness function" guiding evolution towards a predetermined objective.
 
